@@ -1,3 +1,4 @@
+// Version 1.1 - Update for Mobile
 import { database } from "./firebase-config.js";
 import { ref, push, onValue, remove, update, onChildAdded } from "firebase/database";
 
