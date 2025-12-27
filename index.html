@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مدیریت خرید رستوران نور</title>
-    
-    <link rel="stylesheet" href="/style.css">
+    <title>لیست خرید رستوران نور</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div id="admin-login">
-            <input type="password" id="admin-pass" placeholder="رمز مدیر">
-            <button id="login-btn">ورود مدیر</button>
+        <img src="assets/logo.png" alt="لوگو رستوران نور" class="logo">
+        
+        <div class="input-section">
+            <input type="text" id="input-field" placeholder="چه چیزی لازم داریم؟">
+            <button id="add-button">اضافه کن</button>
         </div>
-        
-        <img src="https://raw.githubusercontent.com/itscali/scrimba-shopping-cart/main/assets/cat.png" alt="لوگو">
-        
-        <input type="text" id="input-field" placeholder="چی لازم داریم؟">
-        <button id="add-button">اضافه کن</button>
-        <ul id="shopping-list"></ul>
+
+        <ul id="shopping-list">
+            </ul>
+
+        <div class="admin-section">
+            <input type="password" id="admin-pass" placeholder="رمز مدیر">
+            <button id="admin-btn">ورود مدیر</button>
+        </div>
     </div>
-   
-   <script type="module" src="index.js"></script>
+
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
